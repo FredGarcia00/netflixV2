@@ -1,0 +1,60 @@
+
+
+.banner {
+  height: 448px;
+  object-fit: cover;
+  color: #fff;
+}
+
+.banner__container {
+    padding-top: 140px;
+    padding-bottom: 90px;
+    margin: 0 50px;
+
+}
+
+.banner__title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.banner__movieInfo {
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+.buttons{
+    display: flex;
+}
+
+.banner__button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: .2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: .5rem;
+    background-color: rgba(51, 51, 51, .5);
+    padding-bottom: .5rem;
+}
+
+.banner__button:hover {
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all .2s;
+}
+
+.banner__bottom {
+  height: 5rem;
+  background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37,37,37,.61),
+      #111
+  );
+}
