@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import TextField from '@material-ui/core/TextField'
 import { Link, useHistory } from 'react-router-dom'
-import { useDispatch } from 'react-redux'
 import { auth } from './firebase'
 import './Login.css'
 
@@ -40,6 +39,10 @@ function Login() {
 
     return (
         <div className="login">
+            <div className="login__background">
+              <img src="https://assets.nflxext.com/ffe/siteui/vlv3/43375087-3875-4574-86c4-4c14c3473535/9a253a8f-2091-4850-accd-f2768b1f9f6c/US-en-20200921-popsignuptwoweeks-perspective_alpha_website_large.jpg" 
+              alt=""/>
+            </div>
                 <div className="login__transparent"></div>
             <Link to="/">
                 <img className="login__logo" 

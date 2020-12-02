@@ -1,8 +1,8 @@
 
 
 .banner {
-  height: 448px;
-  object-fit: cover;
+  max-height: 448px;
+  object-fit: contain;
   color: #fff;
 }
 

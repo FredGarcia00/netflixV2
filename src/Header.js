@@ -25,7 +25,7 @@ function Header() {
         />
       </Link>
 
-      <Link to={!user && "/login"} style={{textDecoration:'none'}}>
+      <Link to={ "/login"} style={{textDecoration:'none'}}>
         <div onClick={login} className="header__signIn"> {user? 'Sign out': 'Sign in'} </div>
       </Link>
     </div>
